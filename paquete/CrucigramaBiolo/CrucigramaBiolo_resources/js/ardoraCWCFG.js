@@ -39,5 +39,5 @@ var defCW=[" fue un naturalista francés, ​ uno de los grandes hombres de la �
 var altCW=["","","","","","","","","","","","","","","","","","",""];
 var colNum=15;
 var rowNum=15;
-colorText="#000000";colorButton="#50A82D";colorBack="#FFFFFF";colorSele="#D0F58F";goURLNext=true;
+colorText="#FFFFFF";colorButton="#355379";colorBack="#788CA5";colorSele="#D7DDE4";
 fMenssage="Verdana, Geneva, sans-serif";fActi="Verdana, Geneva, sans-serif";fEnun="Verdana, Geneva, sans-serif";

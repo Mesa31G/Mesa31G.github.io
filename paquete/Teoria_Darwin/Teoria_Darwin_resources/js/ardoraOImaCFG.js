@@ -30,5 +30,5 @@ var words=["dW5vLnBuZw==","ZG9zLnBuZw==","dHJlcy5wbmc=","Y3VhdHJvLnBuZw==","Y2lu
 var alts=["uno","dos","tres","cuatro","cinco"];
 var actMaxWidth="900"; actMaxHeight="700";indexG=0;profG=0;dirMedia="Teoria_Darwin_resources/media/";
 var wordsG=[];aW=[];
-colorText="#000000";colorButton="#50A82D";colorBack="#FFFFFF";colorSele="#D0F58F";goURLNext=true;
+colorText="#FFFFFF";colorButton="#355379";colorBack="#788CA5";colorSele="#D7DDE4";
 fMenssage="Verdana, Geneva, sans-serif";fActi="Verdana, Geneva, sans-serif";fEnun="Verdana, Geneva, sans-serif";

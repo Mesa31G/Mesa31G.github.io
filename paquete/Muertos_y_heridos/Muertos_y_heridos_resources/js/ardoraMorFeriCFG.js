@@ -30,5 +30,5 @@ for (i=0;i<capas.length;i++){if (parseInt($(capas[i]).css("z-index"),10)>valueZi
 var col=0; row=0; writeDir=0;
 var words=["RVZPTFVDScOTTg==","TU9Mw4lDVUxBUw==","R8OJTkVUSUNB","TMONUElET1M=","QkFDVEVSSUFT","UFJPVEXDjU5BUw=="];var defs=["Implica cambios en las características de las poblaciones de organismos a lo largo del tiempo.","Están formadas por átomos unidos entre sí mediante enlaces químicos.","Es una rama de la biología que estudia cómo se transmiten los caracteres hereditarios de una generación a otra.","Son insolubles en agua, pero solubles en disolventes orgánicos como el alcohol y la acetona.","on microorganismos unicelulares que se encuentran por todas partes y pueden ser dañinas como servibles.","Son esenciales para el crecimiento y desarrollo del cuerpo humano."];
 var indexWords=0;var indexAttemps=0;
-colorText="#000000";colorButton="#50A82D";colorBack="#FFFFFF";colorSele="#D0F58F";goURLNext=true;
+colorText="#FFFFFF";colorButton="#355379";colorBack="#788CA5";colorSele="#D7DDE4";
 fMenssage="Verdana, Geneva, sans-serif";fActi="Verdana, Geneva, sans-serif";fEnun="Verdana, Geneva, sans-serif";

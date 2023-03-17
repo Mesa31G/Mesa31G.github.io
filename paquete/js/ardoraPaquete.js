@@ -8,8 +8,8 @@ $("#botonPechar").keydown(function(e){if (e.which!=9){PechaVentana();}});$("#sug
    if (data.getMinutes()<10){horaInicio=data.getHours() +":0"+data.getMinutes()+" h";}
    else{horaInicio=data.getHours() +":"+data.getMinutes()+" h";}
    taboaIntentos=new Array();
-   menuLateral='';
-   menuActividades='<h2 class="heading"></h2><div class="content"><ul><table width="140" border="0"><tr><td><li class="first"><a href="javascript:irA(0)" title="Sopa de letras">1</a></li></td><td><li class="first"><a href="javascript:irA(1)" title="Construye letras">2</a></li></td><td><li class="first"><a href="javascript:irA(2)" title="Crucigrama">3</a></li></td><td><li class="first"><a href="javascript:irA(3)" title="Ordenar imágenes">4</a></li></td><td><li class="first"><a href="javascript:irA(4)" title="Puzzle">5</a></li></td></tr><tr><td><li class="first"><a href="javascript:irA(5)" title="Muertos y heridos">6</a></li></td></tr></table></ul></div>';
+   menuLateral='<div id="updates" class="boxed"><h2 class="title">Juegos:</h2><div class="content"><ul><p><a href="https://ignaguzmn.github.io/sopaletras/" target="_blank">Sopa de letras</a></p><p><a href="https://rodrigoflores567.github.io/construye/" target="_blank">Construye letras</a></p><p><a href="https://josemartinez0903.github.io/crucigrama/" target="_blank">Crucigrama</a></p><p><a href="https://nitiffa16.github.io/teoria%20de_darwin/Teoria_Darwin.htm" target="_blank">Ordenar imágenes</a></p><p><a href="https://andersongamez14.github.io/puzzle/puzzle.htm" target="_blank">Puzzle</a></p><p><a href="https://javiervnhz.github.io/muertos/" target="_blank">Muertos y heridos</a></p></ul></div></div>';
+   menuActividades='<div id="updates" class="boxed"><h2 class="title">Juegos:</h2><div class="content"><table width="130" border="0"><ul><tr><td width="26"><a href="javascript:irA(0)" title="Sopa de letras">1</a></td><td width="26"><a href="javascript:irA(1)" title="Construye letras">2</a></td><td width="26"><a href="javascript:irA(2)" title="Crucigrama">3</a></td><td width="26"><a href="javascript:irA(3)" title="Ordenar imágenes">4</a></td><td width="26"><a href="javascript:irA(4)" title="Puzzle">5</a></td></tr><tr><td width="26"><a href="javascript:irA(5)" title="Muertos y heridos">6</a></td></tr></ul></table></div></div>';
    if (window.opener == null){
       indice=0;
       }else{
@@ -21,12 +21,12 @@ $("#botonPechar").keydown(function(e){if (e.which!=9){PechaVentana();}});$("#sug
    }
    maxIndice=5;
 	taboaContidos=new Array();
-taboaContidos[0]=new act("Sopa de letras","Sopa de letras","","<object width='100%' height='420' type='text/html' data='SopaBiologia/SopaBiologia.htm'></object>",false,"",false,false,false);
-taboaContidos[1]=new act("Construye letras","Construye letras","","<object width='100%' height='420' type='text/html' data='Construye_Letras/Construye_Letras.htm'></object>",false,"",false,false,false);
-taboaContidos[2]=new act("Crucigrama","Crucigrama","","<object width='100%' height='420' type='text/html' data='CrucigramaBiolo/CrucigramaBiolo.htm'></object>",false,"",false,false,false);
-taboaContidos[3]=new act("Ordenar imágenes","Ordenar imágenes","","<object width='100%' height='420' type='text/html' data='Teoria_Darwin/Teoria_Darwin.htm'></object>",false,"",false,false,false);
-taboaContidos[4]=new act("Puzzle","Puzzle","","<object width='100%' height='420' type='text/html' data='PuzzleLamarck/PuzzleLamarck.htm'></object>",false,"",false,false,false);
-taboaContidos[5]=new act("Muertos y heridos","Muertos y heridos","","<object width='100%' height='420' type='text/html' data='Muertos_y_heridos/Muertos_y_heridos.htm'></object>",false,"",false,false,false);
+taboaContidos[0]=new act("Sopa de letras","Sopa de letras","","<object width='100%' height='420' type='text/html' data='SopaBiologia/SopaBiologia.htm'></object>",false,"",true,false,false);
+taboaContidos[1]=new act("Construye letras","Construye letras","","<object width='100%' height='420' type='text/html' data='Construye_Letras/Construye_Letras.htm'></object>",false,"",true,false,false);
+taboaContidos[2]=new act("Crucigrama","Crucigrama","","<object width='100%' height='420' type='text/html' data='CrucigramaBiolo/CrucigramaBiolo.htm'></object>",false,"",true,false,false);
+taboaContidos[3]=new act("Ordenar imágenes","Ordenar imágenes","","<object width='100%' height='420' type='text/html' data='Teoria_Darwin/Teoria_Darwin.htm'></object>",false,"",true,false,false);
+taboaContidos[4]=new act("Puzzle","Puzzle","","<object width='100%' height='420' type='text/html' data='PuzzleLamarck/PuzzleLamarck.htm'></object>",false,"",true,false,false);
+taboaContidos[5]=new act("Muertos y heridos","Muertos y heridos","","<object width='100%' height='420' type='text/html' data='Muertos_y_heridos/Muertos_y_heridos.htm'></object>",false,"",true,false,false);
 document.getElementById("botonAdiante").href="javascript:avanza()";
 document.getElementById("botonAtras").href="javascript:retrocede()";
 document.getElementById("botonAxuda").target="_blank";
